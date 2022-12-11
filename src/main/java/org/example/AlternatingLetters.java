@@ -4,6 +4,7 @@ public class AlternatingLetters {
     public static void main(String[] args) {
         String s1 = "Spongebob";
         String s2 = "spongebob";
+
         System.out.println(alternate(s1));
         System.out.println(alternate(s2));
 
