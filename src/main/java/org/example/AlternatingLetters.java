@@ -15,7 +15,6 @@ public class AlternatingLetters {
     // ex: input -> Spongebob, output -> SpOnGeBoB
     // ex: input -> spongebob, output -> sPoNgEbOb
     public static String alternate(String s) {
-
         char[] chars = s.toCharArray();
         boolean isUpper = Character.isUpperCase(chars[0]);
 
